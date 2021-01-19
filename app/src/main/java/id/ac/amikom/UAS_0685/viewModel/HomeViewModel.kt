@@ -19,7 +19,7 @@ class HomeViewModel : ViewModel() {
 
     companion object {
         private val TAG = HomeViewModel::class.java.simpleName
-        private val GITHUB_API = "7e5f26491b034e054fe1cded505a3ebbaa024978"
+        private val GITHUB_API = "d4fb9b4e5e747e4ae93b6e017001d15cbd1ffdb9"
     }
     private val listUsernames = MutableLiveData<ArrayList<User>>()
     private lateinit var errorMsg: String
